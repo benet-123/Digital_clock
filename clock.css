@@ -1,0 +1,22 @@
+body{
+    background-image: url("./clockimage/clockimage.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+background-position: center;
+    background-attachment: fixed;
+}
+.clock{
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 20%;
+}
+
+@media(max-width:500px){
+body{
+    margin-top: 60%;
+    
+}
+}
